@@ -33,6 +33,7 @@ Architecture of Model
 
 In this file, key-points is detected using previously trained model.
 First all the faces are detected using 'haarcascade_frontalface_default.xml' and co-ordinates from the detection (x,y,w,h) are used to crop the image after then resize to shape (224, 224, 1) as an input to the model to predict the keypoints.
+
 <img src="https://github.com/vkmavani/Facial-Keypoints-Detection/blob/master/Facial%20Keypoints%20Detection/Images/obamas.jpg">
 <img src="https://github.com/vkmavani/Facial-Keypoints-Detection/blob/master/Facial%20Keypoints%20Detection/Images/Detection.png">
 <img src="https://github.com/vkmavani/Facial-Keypoints-Detection/blob/master/Facial%20Keypoints%20Detection/Images/obamakeypoints.png">
