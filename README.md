@@ -23,11 +23,8 @@ This dataset consists 5770 color images and key-points with respect to images:
    * <I>3462 of these images are training images, to create a model to predict keypoints.</I> 
    * <I>2308 of these images are testing images, which will be used to test the accuracy of the model.</I>
 
-First resize the images with shape (224, 224, 1). The input images of neural network were converted into gray scale so it could be normalized. So, the final shape will be (3462, 224, 224, 1) and Key-points shape is (3462, 68, 2) which is then reshaped as (3462, 136).
-
-Architecture of Model
+First resize the images with shape (224, 224, 1). The input images of neural network were converted into gray scale so it could be normalized. So, the final shape will be (3462, 224, 224, 1) and Key-points shape is (3462, 68, 2) which is then reshaped as (3462, 136).Here is the Architecture of Model,
 <img src="https://github.com/vkmavani/Facial-Keypoints-Detection/blob/master/Facial%20Keypoints%20Detection/Images/Model.png">
-
 
 ## File-3 : Facial Keypoints Detection
 
